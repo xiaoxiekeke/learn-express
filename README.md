@@ -1,30 +1,39 @@
 课程大纲
+
 1: 什么是ExpressJS
+
 2: 第一个ExpressJS程序（hello world）
+
 3: 理解ExpressJS路由
+
 4: Server Request
+
 5. Server Response
+
 6: 模板 handlerbar
+
 7: SCSS/SASS Preprocessor
+
 8: Forms, Cookies, and Sessions
+
 9: 用ExpressJS实现To do list
 
 
 API:
 
 App:
-1.app.use([path], function)
-path 默认参数--'/'
-function 中间件
-    1. == function(request, response, next)
-    2. 无数多个
+	1.app.use([path], function)
+		path 默认参数--'/'
+		function 中间件
+		    1. == function(request, response, next)
+		    2. 无数多个
 
-2.app.VERB(path, [callback...], callback)
-VERB: *get, *post, put, delete
-path: String or Regex
-callback: *next() *next('router')
+	2.app.VERB(path, [callback...], callback)
+		VERB: *get, *post, put, delete
+		path: String or Regex
+		callback: *next() *next('router')
 
-3.app.param([name], callback)
+	3.app.param([name], callback)
 
 Request:
 1. req.params
