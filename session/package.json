@@ -1,0 +1,11 @@
+{
+    "name": "router",
+    "decription": "xxx",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.x",
+        "express-session": "*",
+        "express-handlebars": "*",
+        "body-parser": "*"
+    }
+}

@@ -1,0 +1,14 @@
+<div>
+    <a href="/logout">Logout</a>
+</div>
+
+<ul>
+    {{#each items}}
+    {{> list_item}}
+    {{/each}}
+</ul>
+
+<form method="post" action="/">
+    <input type="text" placeholder="Add New" name="newItem"/>
+    <button type="submit">Add</button>
+</form>

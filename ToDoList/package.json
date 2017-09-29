@@ -1,0 +1,16 @@
+{
+    "name": "todolist",
+    "decription": "xxx",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.x",
+        "redis": "*",
+        "connect-redis": "*",
+        "express-handlebars": "*",
+        "express-session": "*",
+        "node-uuid": "*",
+        "promise": "*",
+        "lodash": "*",
+        "body-parser": "*"
+    }
+}
